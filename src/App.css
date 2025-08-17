@@ -1,0 +1,11 @@
+.App{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content{
+  flex: 20;
+  /* background-color: aquamarine; */
+}

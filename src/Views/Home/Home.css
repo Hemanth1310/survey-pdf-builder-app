@@ -1,0 +1,43 @@
+.Home{
+    width: 100%;
+    /* margin: 0; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-items: center */
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    box-sizing: border-box;
+  
+}
+
+.Home div{
+    width:30%;
+    box-sizing: border-box;
+    border: 1px solid var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.Home input{
+    width:60%;
+    height:100%;
+    box-sizing: border-box;
+    border :none;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.Home button{
+    border :none;
+    background-color: none ;
+    color:var(--primary-color);
+    font-size: 18px;
+    
+    border-radius: 20px;
+}

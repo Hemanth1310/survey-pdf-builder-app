@@ -1,0 +1,41 @@
+.Navbar{
+    width:100%;
+    background: var(--primary-color);
+    padding: 18px 30px;
+    color: #fff;
+    box-sizing: border-box;
+    /* height: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.Navbar span{
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+.Navbar p{
+    font-size: 24px;
+    list-style: 1.5;
+    /* flex: 8; */
+}
+.Navbar nav{
+    display: flex;
+    /* justify-content: space-between; */
+    /* flex:1 */
+    gap:28px
+    
+    
+}
+
+.nav-link{
+    color: #fff;
+    line-height: 1.5;
+}
+
+.nav-link:hover{
+    color:#c2def7
+}
