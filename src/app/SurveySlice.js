@@ -1,43 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-
+import {sampleDEscription,sampleName,sampleData} from "../utils/SampleData.js";
 
 const surveySlice = createSlice({
     name:'survey',
     initialState:{
-        surveyName:'',
-        surveyDescription:'',
-        questions:[{
-                        id:'01',
-                        question:'How Good are you',
-                        answerType:'short-answer',
-                        options:{
-                            mcqOpt1:'',
-                            mcqOpt2:'',
-                            mcqOpt3:'',
-                            mcqOpt4:'',
-                        }
-                },{
-                        id:'02',
-                        question:'Please choose the below option',
-                        answerType:'MCQ',
-                        options:{
-                            mcqOpt1:'good',
-                            mcqOpt2:'bad',
-                            mcqOpt3:'ugly',
-                            mcqOpt4:'worst',
-                        }
-                },{
-                        id:'03',
-                        question:'Germany is in europe',
-                        answerType:'true/false',
-                        options:{
-                            mcqOpt1:'',
-                            mcqOpt2:'',
-                            mcqOpt3:'',
-                            mcqOpt4:'',
-                        }
-                }],
+        surveyName:sampleName,
+        surveyDescription:sampleDEscription,
+        questions:[...sampleData],
         
     },
     reducers:{
