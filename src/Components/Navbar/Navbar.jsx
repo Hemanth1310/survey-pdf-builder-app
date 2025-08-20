@@ -9,6 +9,9 @@ const Navbar = () => {
                 <div>
                     <NavLink style={({isActive})=>isActive?{textDecoration:'underline'}:{}} className='nav-link' to='/'>Home</NavLink>
                 </div>
+                 <div>
+                    <NavLink style={({isActive})=>isActive?{textDecoration:'underline'}:{}} className='nav-link' to='/createSurvey'>Edit</NavLink>
+                </div>
                 <div>
                         <NavLink style={({isActive})=>isActive?{textDecoration:'underline'}:{}} className='nav-link' to='/viewSurvey'>View Survey</NavLink>
                 </div>

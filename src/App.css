@@ -7,5 +7,6 @@
 
 .main-content{
   flex: 20;
-  /* background-color: aquamarine; */
+
+  background-color: rgb(223, 234, 243);
 }

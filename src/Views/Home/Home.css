@@ -21,6 +21,7 @@
     align-items: center;
     justify-content: space-between;
     border-radius: 20px;
+    background: #fff;
 }
 
 .Home input{
@@ -31,6 +32,8 @@
     padding: 15px;
     border-radius: 20px;
     font-size: 18px;
+    outline: none;
+    background: none;
 }
 
 .Home button{
